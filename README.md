@@ -1,64 +1,53 @@
 # react_typescript_materialui_usm_boilerplate
 
-A React + TypeScript starter (Create React App) with Material-UI and usm-redux state — Redux without the reducer ceremony, plus a working counter.
+A ready-to-use starter for React and TypeScript, with Material-UI and usm-redux already set up. usm-redux gives you Redux without the actions and reducers: your state is one small class. A working counter shows how to read and change state, so you can start building straight away.
 
 ## What's included
 
-- **React** via Create React App, in TypeScript
-- **usm-redux** on top of `react-redux` — a `StatesController` class instead of actions/reducers
-- **Material-UI** with a theme file
-- **A working counter component** showing how to read and mutate state
+1. **React with TypeScript,** made with Create React App.
+2. **usm-redux** on top of `react-redux`: a `StatesController` class instead of actions and reducers.
+3. **Material-UI** with its own theme file.
+4. **A working counter** that reads and changes the state.
 
 ## Project layout
 
 ```
-src/index.tsx                   redux provider + MUI theme
+src/index.tsx                   Redux provider and Material-UI theme
 src/App.tsx                     the app shell
-src/Components/Counter.tsx      reads and mutates the state
+src/Components/Counter.tsx      reads and changes the state
 src/Others/StatesController.ts  the usm-redux state
-src/Others/Theme.ts             MUI theme
+src/Others/Theme.ts             Material-UI theme
 ```
 
-## Getting started
+## Get started
 
 ```bash
 git clone https://github.com/p32929/react_typescript_materialui_usm_boilerplate.git
 cd react_typescript_materialui_usm_boilerplate
 npm install
-npm start          # http://localhost:3000
-
-npm run build
-npm test
+npm start          # opens http://localhost:3000
 ```
 
-## Related boilerplates
+Run `npm run build` for a production build, and `npm test` to run the tests.
 
-- [react-typescript-materialui-overmind-boilerplate](https://github.com/p32929/react-typescript-materialui-overmind-boilerplate) — same stack, Overmind instead of usm-redux
-- [react_shadcn_ts_usm_boilerplate](https://github.com/p32929/react_shadcn_ts_usm_boilerplate) — usm-redux with Vite and shadcn/ui
-- [nextjs_typescript_materialui_usm_boilerplate](https://github.com/p32929/nextjs_typescript_materialui_usm_boilerplate) — the Next.js version
+## Related starters
+
+1. [react-typescript-materialui-overmind-boilerplate](https://github.com/p32929/react-typescript-materialui-overmind-boilerplate): the same setup with Overmind instead of usm-redux.
+2. [react_shadcn_ts_usm_boilerplate](https://github.com/p32929/react_shadcn_ts_usm_boilerplate): usm-redux with Vite and shadcn/ui.
+3. [nextjs_typescript_materialui_usm_boilerplate](https://github.com/p32929/nextjs_typescript_materialui_usm_boilerplate): the Next.js version.
+
+## License
+
+MIT License, Copyright (c) 2020 Fayaz Bin Salam. See [LICENSE](LICENSE) for the full text.
 
 ## Contributing
 
-Contributions are warmly welcomed and greatly appreciated! Whether it's a bug fix, new feature, or improvement, your input helps make this project better for everyone.
-
-Before submitting a pull request, please:
-
-1. Create an issue describing the feature or bug fix you'd like to work on
-2. Wait for discussion and approval to ensure alignment with project goals
-3. Fork the repository and create your feature branch
-4. Submit your pull request with a clear description of changes
-
-This approach helps avoid duplicate efforts and ensures smooth collaboration. Thank you for considering contributing!
+Contributions are very welcome, thank you! Before you start on a pull request, please open an issue and tell me what you would like to add or change. That way we can agree on it first, and your time is not spent on something that might not fit.
 
 ## Share
 
-Sharing this repository with your friends is just one click away from here
+<a href="https://p32929.github.io/share/?repo=react_typescript_materialui_usm_boilerplate"><img src="https://p32929.github.io/readme/share.svg" alt="Share this with your friends in just a click" width="420"></a>
 
-[![facebook](https://user-images.githubusercontent.com/6418354/179013321-ac1d1452-0689-493f-9066-940cf2302b6e.png)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/p32929/react_typescript_materialui_usm_boilerplate/)
-[![twitter](https://user-images.githubusercontent.com/6418354/179013351-7d8d6d1c-4ce2-46ab-bef8-4c4765a1b888.png)](https://twitter.com/intent/tweet?url=https://github.com/p32929/react_typescript_materialui_usm_boilerplate/)
-[![tumblr](https://user-images.githubusercontent.com/6418354/179013343-3111f55a-3b90-40c7-8487-9777348672b0.png)](https://www.tumblr.com/share?v=3&u=https://github.com/p32929/react_typescript_materialui_usm_boilerplate/)
-[![pocket](https://user-images.githubusercontent.com/6418354/179013334-b095c45f-becf-49f4-9ee1-5a731a9b1f85.png)](https://getpocket.com/save?url=https://github.com/p32929/react_typescript_materialui_usm_boilerplate/)
-[![pinterest](https://user-images.githubusercontent.com/6418354/179013331-44cd9206-11b1-4b65-becb-5863b61c828f.png)](https://pinterest.com/pin/create/button/?url=https://github.com/p32929/react_typescript_materialui_usm_boilerplate/)
-[![reddit](https://user-images.githubusercontent.com/6418354/179013338-7416ae3f-73ba-4522-86e1-1374d7082d22.png)](https://www.reddit.com/submit?url=https://github.com/p32929/react_typescript_materialui_usm_boilerplate/)
-[![linkedin](https://user-images.githubusercontent.com/6418354/179013327-ca7b7102-1da8-4b1c-858f-1a6e5f21bd70.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/p32929/react_typescript_materialui_usm_boilerplate/)
-[![whatsapp](https://user-images.githubusercontent.com/6418354/179013353-f477fa0b-3e6f-4138-a357-c9991b23ff88.png)](https://api.whatsapp.com/send?text=https://github.com/p32929/react_typescript_materialui_usm_boilerplate/)
+## Support
+
+<a href="https://p32929.github.io/support/"><img src="https://p32929.github.io/readme/support.svg" alt="If you like my works and want to support me, feel free to support" width="420"></a>
